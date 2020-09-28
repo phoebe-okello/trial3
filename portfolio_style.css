@@ -1,0 +1,71 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   background-color: silver;
+}
+.folio-home{
+    float: right;
+text-decoration: none;
+}
+.content{
+    display: flex;
+    
+}
+.folio-title{
+    text-align: center;
+    font-size: 25px;
+}
+.box-A{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-left: 15px;
+ text-align: center;
+ word-wrap: break-word;
+}
+.box-B{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-left: 60px;
+
+}
+.box-B ul{
+    color: rgb(74, 100, 126);
+}
+@media screen and (max-width:1000px){
+    .content{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+       
+    }
+}
+@media screen and (max-width:700px){
+    .content{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width:620px){
+    .content{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        
+    }
+}
+@media screen and (max-width:320px){
+    .content{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        
+    }
+}
+@media screen and (max-width:1000px){
+    .box-A{
+        padding-left: 60px;
+    }
+}
